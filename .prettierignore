@@ -1,0 +1,5 @@
+# TypeScript Build Artifacts
+bld/
+.bld-cache/
+# Digshare Build Artifacts
+out/
