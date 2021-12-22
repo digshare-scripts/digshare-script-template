@@ -4,7 +4,7 @@
 2. 运行 `yarn dev-run` 模拟执行
 3. 访问 [https://script.dingshao.cn/](https://script.dingshao.cn/) 使用盯梢客户端扫码登陆
 4. 选中左侧发包地址，将 `registry string` 复制待用
-5. 发布
+5. 发布方式（任选其一）
 
 - 1. 本地发布
   - 粘贴 `registry string` 至 `.npmrc`
