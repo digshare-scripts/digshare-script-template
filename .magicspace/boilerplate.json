@@ -1,0 +1,20 @@
+{
+  "extends": "@mufan/code-boilerplates/digshare-script",
+  "options": {
+    "name": "digshare-channels",
+    "digshareScript": {
+      "runtime": "nodejs14"
+    },
+    "packages": [
+      {
+        "name": "@digshare/awesome-channel",
+        "displayName": "一个好频道👍",
+        "tsProjects": [
+          {
+            "name": "library"
+          }
+        ]
+      }
+    ]
+  }
+}
