@@ -1,0 +1,22 @@
+{
+  "name": "digshare-channels",
+  "private": true,
+  "scripts": {
+    "build": "rimraf packages/awesome-channel/bld && tsc --build",
+    "lint": "eslint .",
+    "lint-prettier": "prettier --check .",
+    "pub": "node ./publish.js",
+    "test": "yarn lint-prettier && yarn build && yarn lint"
+  },
+  "workspaces": [
+    "packages/awesome-channel"
+  ],
+  "devDependencies": {
+    "@mufan/code": "^0.2.10",
+    "@mufan/eslint-plugin": "^0.1.48",
+    "eslint": "^8.5.0",
+    "prettier": "^2.5.1",
+    "rimraf": "^3.0.2",
+    "typescript": "^4.5.4"
+  }
+}

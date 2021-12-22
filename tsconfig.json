@@ -1,0 +1,8 @@
+{
+  "references": [
+    {
+      "path": "packages/awesome-channel/src/library"
+    }
+  ],
+  "files": []
+}

@@ -1,0 +1,13 @@
+# General
+.DS_Store
+*.tgz
+node_modules/
+yarn-error.log
+npm-debug.log
+# TypeScript Build Artifacts
+bld/
+.bld-cache/
+# Digshare Build Out
+out/
+# config
+.config.js
