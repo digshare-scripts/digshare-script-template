@@ -10,13 +10,14 @@ jobs:
     if: "contains(github.event.head_commit.message, '*publish')"
     strategy:
       matrix:
-        node-version: ['14', '16']
+        node-version: ['16']
     steps:
       - uses: actions/checkout@v2
       - uses: actions/setup-node@v2
         with:
           node-version: ${{matrix.node-version}}
+      - run: |
+          echo "${{secrets.DIGSHARE_REGISTRY}}" > ~/.npmrc
       - run: npm install --global yarn
       - run: yarn install
-      - run: yarn build
       - run: node publish
