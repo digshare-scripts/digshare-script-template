@@ -26,8 +26,8 @@
   "digshare": {
     "runtime": "脚本运行环境（nodejs10 | nodejs12 | nodejs14）",
     "cron": "定期执行表达式（6 位，第一位秒固定为 0，第二位分钟需大于 1，其他正常）",
-    "timeout": "脚本超时时间",
-    "disabled": "发布到线上但禁用脚本"
+    "timeout": "脚本超时时间（数字，ms）",
+    "disabled": "发布到线上但禁用脚本（boolean）"
   }
 }
 ```
