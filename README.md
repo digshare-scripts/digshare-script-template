@@ -1,4 +1,3 @@
-（WIP... 收到上线通知前请勿使用哦 😁）
 ## 脚本模版使用说明
 
 1. 在 `src/index.ts` 中完成逻辑开发
@@ -9,7 +8,7 @@
 
 - 1. 本地发布
   - 粘贴 `registry string` 至 `.npmrc`
-  - 运行 `node publish` 发布脚本
+  - 运行 `yarn dss-publish` 发布脚本
 - 2. GitHub action 发布 (适用于公开仓库)
   - 将 `registry string` 配置到 settings -> secrets 中，name 为 `DIGSHARE_REGISTRY`
   - 提交代码，提交信息中包含 `*publish` 即可自动发布

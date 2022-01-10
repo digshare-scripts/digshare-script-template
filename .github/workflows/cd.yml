@@ -20,4 +20,4 @@ jobs:
           echo "${{secrets.DIGSHARE_REGISTRY}}" > ~/.npmrc
       - run: npm install --global yarn
       - run: yarn install
-      - run: node publish
+      - run: yarn dss-publish

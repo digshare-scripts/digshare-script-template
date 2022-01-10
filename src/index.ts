@@ -1,11 +1,16 @@
-import {script} from '@digshare/script';
+import {Script} from '@digshare/script';
 
-interface StorageData {}
+interface Storage {}
 
-export default script<StorageData>(async function (_payload, _context) {
+interface Payload {}
+
+const script: Script<Storage, Payload> = async function (_payload, _context) {
   return {
     content: '欢迎欢迎，热烈欢迎',
-    images: [],
-    links: [],
+    // images: [],
+    // links: [],
+    // tags: []
   };
-});
+};
+
+export default script;
