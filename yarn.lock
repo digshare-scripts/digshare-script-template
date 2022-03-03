@@ -35,10 +35,10 @@
   dependencies:
     "@cspotcode/source-map-consumer" "0.8.0"
 
-"@digshare/script@^0.2.4":
-  version "0.2.4"
-  resolved "https://registry.yarnpkg.com/@digshare/script/-/script-0.2.4.tgz#b5c7911d7855770bdbde91617a3d2bd411a8e914"
-  integrity sha512-cijuwoIsDPOJdlsz436iNzXP8DOKtoFL18gnSe6K87cYDfY/mEEDwRB6GGn0WZLByQ8p9rwRunTsY+LuUl+VKQ==
+"@digshare/script@^0.2.7":
+  version "0.2.7"
+  resolved "https://registry.yarnpkg.com/@digshare/script/-/script-0.2.7.tgz#95a1290825ef74dc176d2749b302152db7ba6195"
+  integrity sha512-/seSz//MWWFEAMGw6+IW+9xc3D9FxjIamhYqljyBD7PGTqlJoo5GH5UJakR8JhgoBotqGCLSJBKfa6q4Eih3YA==
   dependencies:
     "@rollup/plugin-commonjs" "^22.0.0-4"
     "@rollup/plugin-json" "^4.1.0"
@@ -47,7 +47,7 @@
     "@types/node-fetch" "^2.5.12"
     bson "^4.6.0"
     clime "^0.5.14"
-    node-fetch "2.6.5"
+    node-fetch "2.6.7"
     rollup "^2.62.0"
     rollup-plugin-terser "^7.0.2"
     tslib "^2.3.1"
@@ -1411,10 +1411,10 @@ natural-compare@^1.4.0:
   resolved "https://registry.yarnpkg.com/natural-compare/-/natural-compare-1.4.0.tgz#4abebfeed7541f2c27acfb29bdbbd15c8d5ba4f7"
   integrity sha1-Sr6/7tdUHywnrPspvbvRXI1bpPc=
 
-node-fetch@2.6.5:
-  version "2.6.5"
-  resolved "https://registry.yarnpkg.com/node-fetch/-/node-fetch-2.6.5.tgz#42735537d7f080a7e5f78b6c549b7146be1742fd"
-  integrity sha512-mmlIVHJEu5rnIxgEgez6b9GgWXbkZj5YZ7fx+2r94a2E+Uirsp6HsPTPlomfdHtpt/B0cdKviwkoaM6pyvUOpQ==
+node-fetch@2.6.7:
+  version "2.6.7"
+  resolved "https://registry.yarnpkg.com/node-fetch/-/node-fetch-2.6.7.tgz#24de9fba827e3b4ae44dc8b20256a379160052ad"
+  integrity sha512-ZjMPFEfVx5j+y2yF35Kzx5sF7kDzxuDj6ziH4FFbOp87zKDZNx8yExJIb05OGF4Nlt9IHFIMBkRl41VdvcNdbQ==
   dependencies:
     whatwg-url "^5.0.0"
 

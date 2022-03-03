@@ -17,7 +17,7 @@
     "dss-publish": "node publish"
   },
   "dependencies": {
-    "@digshare/script": "^0.2.4",
+    "@digshare/script": "^0.2.7",
     "@types/node-fetch": "^2.5.12",
     "node-fetch": "^2.6.5",
     "tslib": "^2.3.1"

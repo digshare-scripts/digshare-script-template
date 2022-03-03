@@ -2,8 +2,8 @@
 
 const {exec} = require('child_process');
 
-const DIGSHARE_API = 'https://api.staging.dingshao.cn/v1';
-const DIGSHARE_REGISTRY = 'https://script.staging.dingshao.cn/registry/';
+const DIGSHARE_API = 'https://api.dingshao.cn/v1';
+const DIGSHARE_REGISTRY = 'https://script.dingshao.cn/registry/';
 
 let child = exec(`npm publish --registry=${DIGSHARE_REGISTRY}`, {
   env: {
