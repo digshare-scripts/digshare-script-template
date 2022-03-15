@@ -24,7 +24,7 @@
 
 ### package.json
 
-```json
+```jsonc
 {
   // 发布配置
   "publishConfig": {
