@@ -4,8 +4,8 @@
 node_modules/
 yarn-error.log
 npm-debug.log
-# TypeScript Build Artifacts
+# Local Config
+.npmrc
+# Build Artifacts
 bld/
-.bld-cache/
-# Digshare Build Out
-out/
+bundled-script.js

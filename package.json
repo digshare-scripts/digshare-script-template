@@ -1,34 +1,28 @@
 {
   "name": "@digshare/awesome-channel",
-  "main": "out/index.js",
   "version": "0.1.0",
+  "publishConfig": {
+    "registry": "https://script.dingshao.cn/registry/"
+  },
   "files": [
-    "out"
+    "bundled-script.js"
   ],
+  "main": "bundled-script.js",
   "digshare": {
     "runtime": "nodejs14"
   },
   "scripts": {
-    "dev-run": "ts-node src/@run.ts",
-    "prepublishOnly": "yarn build",
-    "build": "yarn ts-build && yarn dss-pack",
-    "ts-build": "rimraf ./bld && tsc --build",
-    "dss-pack": "dss build -i bld/index.js",
-    "dss-publish": "node publish"
+    "dev-run": "ts-node ./src/dev-run.ts",
+    "build": "rimraf ./bld && tsc --project ./src && dss build --input ./bld/script.js",
+    "prepublishOnly": "yarn build"
   },
   "dependencies": {
-    "@digshare/script": "^0.2.7",
-    "@types/node-fetch": "^2.5.12",
-    "node-fetch": "^2.6.5",
-    "tslib": "^2.3.1"
+    "@digshare/script": "^0.3.0"
   },
   "devDependencies": {
-    "@mufan/code": "^0.2.10",
-    "@mufan/eslint-plugin": "^0.1.48",
-    "eslint": "^8.5.0",
     "prettier": "^2.5.1",
     "rimraf": "^3.0.2",
-    "ts-node": "^10.4.0",
-    "typescript": "^4.5.4"
+    "ts-node": "^10.7.0",
+    "typescript": "^4.6.2"
   }
 }

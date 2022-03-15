@@ -35,10 +35,10 @@
   dependencies:
     "@cspotcode/source-map-consumer" "0.8.0"
 
-"@digshare/script@^0.2.7":
-  version "0.2.7"
-  resolved "https://registry.yarnpkg.com/@digshare/script/-/script-0.2.7.tgz#95a1290825ef74dc176d2749b302152db7ba6195"
-  integrity sha512-/seSz//MWWFEAMGw6+IW+9xc3D9FxjIamhYqljyBD7PGTqlJoo5GH5UJakR8JhgoBotqGCLSJBKfa6q4Eih3YA==
+"@digshare/script@^0.3.0":
+  version "0.3.0"
+  resolved "https://registry.yarnpkg.com/@digshare/script/-/script-0.3.0.tgz#e36f0c77de8457ab5c65c8bb749166dc4a265692"
+  integrity sha512-NJ8B/JwC59lQt0PK+7BMfvWPA3jOwUbsO8QK7JAa78nVwcjfg9N62J6MAfhVtgfIjKboKeIraj3SA8jaw5oK2Q==
   dependencies:
     "@rollup/plugin-commonjs" "^22.0.0-4"
     "@rollup/plugin-json" "^4.1.0"
