@@ -2,7 +2,7 @@
 
 盯梢频道脚本除了可以在 [script.dingshao.cn](https://script.dingshao.cn) 直接编辑部署外，还可以使用 dss 命令构建后通过 npm 命令发布到盯梢脚本专有的 registry 地址（`https://script.dingshao.cn/registry/`）。
 
-当前模板使用了 yarn 和 TypeScript，可以根据需要进行替换。
+当前模板使用了 TypeScript，可以根据需要进行替换。
 
 ## 脚本开发
 
@@ -10,7 +10,7 @@
 
 > 脚本实现与线上基本相同，具体可参考 [@digshare/script](https://github.com/digshare/digshare-script)。不同于线上编辑的脚本，本地构建的脚本未提前引入依赖（包括 `@digshare/script` 和 `node-fetch`），需要自行引入。
 
-在开发过程中，可以执行 `yarn dev-run` 进行测试。如果你打算使用 webhook 传入参数，可以修改 [src/dev-run.ts](./src/dev-run.ts) 中的 `payload` 进行模拟。
+在开发过程中，可以执行 `yarn dev-run` 或 `npm run dev-run` 进行测试。如果你打算使用 webhook 传入参数，可以修改 [src/dev-run.ts](./src/dev-run.ts) 中的 `payload` 进行模拟。
 
 ## 脚本部署
 

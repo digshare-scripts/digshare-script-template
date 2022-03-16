@@ -14,7 +14,7 @@
   "scripts": {
     "dev-run": "ts-node ./src/dev-run.ts",
     "build": "rimraf ./bld && tsc --project ./src && dss build --input ./bld/script.js",
-    "prepublishOnly": "yarn build"
+    "prepublishOnly": "npm run build"
   },
   "dependencies": {
     "@digshare/script": "^0.3.0"

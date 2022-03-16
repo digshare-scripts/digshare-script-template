@@ -1,13 +1,11 @@
-import {Script} from '@digshare/script';
+import {script} from '@digshare/script';
 
 interface Payload {}
 
 interface Storage {}
 
-const script: Script<Payload, Storage> = async function (_payload, _context) {
+export default script<Payload, Storage>(async (payload, {storage}) => {
   return {
     content: '这是一条价值不菲的消息！',
   };
-};
-
-export default script;
+});
