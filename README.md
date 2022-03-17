@@ -36,9 +36,7 @@
   "main": "bundled-script.js",
   "digshare": {
     // 运行时，当前仅支持 nodejs14。
-    "runtime": "nodejs14",
-    // 定时执行 cron 表达式，6 位，建议不要扎堆整点执行。
-    "cron": "0 0 0 * * *"
+    "runtime": "nodejs14"
   }
 }
 ```
