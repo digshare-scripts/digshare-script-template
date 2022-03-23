@@ -18,6 +18,7 @@
   },
   "dependencies": {
     "@digshare/script": "^0.3.0",
+    "@types/ms": "latest",
     "cheerio": "latest",
     "ms": "latest",
     "node-fetch": "2"
