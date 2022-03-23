@@ -17,7 +17,10 @@
     "prepublishOnly": "npm run build"
   },
   "dependencies": {
-    "@digshare/script": "^0.3.0"
+    "@digshare/script": "^0.3.0",
+    "cheerio": "latest",
+    "ms": "latest",
+    "node-fetch": "2"
   },
   "devDependencies": {
     "@types/node": "14",

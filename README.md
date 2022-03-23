@@ -12,6 +12,8 @@
 
 在开发过程中，可以执行 `yarn dev-run` 或 `npm run dev-run` 进行测试。如果你打算使用 webhook 传入参数，可以修改 [src/dev-run.ts](./src/dev-run.ts) 中的 `payload` 进行模拟。
 
+> 在项目依赖中，除了必须的 [@digshare/script](https://github.com/digshare/digshare-script)，我们还加入了一些常用的 npm 包，可以根据需要自行删减。
+
 ## 脚本部署
 
 1. 在盯梢应用上创建频道后在电脑上打开 [script.dingshao.cn](https://script.dingshao.cn) 扫码授权。
