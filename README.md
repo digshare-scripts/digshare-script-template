@@ -4,6 +4,8 @@
 
 当前模板使用了 TypeScript，可以根据需要进行替换。
 
+> 我们将一些自己的脚本代码托管在了 [digshare-scripts](https://github.com/digshare-scripts) 供大家参考和使用。
+
 ## 脚本开发
 
 在当前模板中，找到 [src/script.ts](./src/script.ts) 文件，实现脚本内容。
