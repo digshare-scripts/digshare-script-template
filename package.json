@@ -1,33 +1,15 @@
 {
-  "name": "@digshare/awesome-channel",
-  "version": "0.1.0",
-  "publishConfig": {
-    "registry": "https://script.dingshao.cn/registry/"
-  },
-  "files": [
-    "bundled-script.js"
-  ],
-  "main": "bundled-script.js",
-  "digshare": {
-    "runtime": "nodejs14"
-  },
-  "scripts": {
-    "dev-run": "ts-node ./src/dev-run.ts",
-    "build": "rimraf ./bld && tsc --project ./src && dss build --input ./bld/script.js",
-    "prepublishOnly": "npm run build"
+  "name": "digshare-script",
+  "version": "0.0.0",
+  "exports": "./src/script.ts",
+  "dss": {
+    "schedule": "rate(1d)"
   },
   "dependencies": {
-    "@digshare/script": "^0.3.0",
-    "@types/ms": "latest",
-    "cheerio": "latest",
-    "ms": "latest",
-    "node-fetch": "2"
+    "@digshare/script": "0.4"
   },
   "devDependencies": {
-    "@types/node": "14",
-    "prettier": "^2.5.1",
-    "rimraf": "^3.0.2",
-    "ts-node": "^10.7.0",
-    "typescript": "^4.6.2"
+    "@types/node": "18",
+    "typescript": "latest"
   }
 }

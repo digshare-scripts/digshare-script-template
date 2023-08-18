@@ -1,22 +1,16 @@
 import {script} from '@digshare/script';
 
-import fetch from 'node-fetch';
-import * as Cheerio from 'cheerio';
+interface State {
+  count: number;
+}
 
-interface Payload {}
-
-interface Storage {}
-
-export default script<Payload, Storage>(async (payload, {storage}) => {
-  // 使用 fetch 获取页面内容。
-  // let html = await fetch('https://www.example.com').then(response =>
-  //   response.text(),
-  // );
-
-  // 使用 Cheerio 解析 HTML 内容。
-  // let $ = Cheerio.load(html);
+export default script<State>(async (state = {count: 0}) => {
+  state.count += 1;
 
   return {
-    content: '这是一条价值不菲的消息！',
+    // 消息内容
+    message: `这是第 ${state.count} 次执行`,
+    // 更新状态
+    state,
   };
 });

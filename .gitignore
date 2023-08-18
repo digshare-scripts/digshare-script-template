@@ -2,10 +2,8 @@
 .DS_Store
 *.tgz
 node_modules/
-yarn-error.log
-npm-debug.log
-# Local Config
-.npmrc
+# Config
+.dssrc
 # Build Artifacts
-bld/
-bundled-script.js
+.local/
+out/
