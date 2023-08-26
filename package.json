@@ -1,6 +1,7 @@
 {
   "name": "digshare-script",
   "version": "0.0.0",
+  "type": "module",
   "exports": "./src/script.ts",
   "dss": {
     "schedule": "rate(1d)"
