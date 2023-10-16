@@ -22,7 +22,7 @@ npx dss local-run
 # 部署到调试环境
 npx dss deploy --debug
 # 执行（不实际发送消息和更新状态）
-npx dss run --dry-run
+npx dss run --debug --dry-run
 
 # 或者部署后直接执行
 npx dss deploy --debug --dry-run
